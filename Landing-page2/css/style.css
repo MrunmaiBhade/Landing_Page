@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sometype+Mono&display=swap');
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(153deg, rgba(2, 0, 36, 1) 0%, rgba(94, 96, 98, 0.9843375582654937) 100%);
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(211, 180, 20);
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+}
+
+.img-container {
+    position: relative;
+    bottom: 140px;
+    left: 1040px;
+    display: inline;
+    height: 80px;
+    width: 80px;
+}
+
+.img1,
+.img2,
+.img3 {
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover {
+    background-color: yellowgreen;
+}
+
+.pizza1 {
+    position: absolute;
+    left: 800px;
+    top: 80px;
+    transform: rotateZ(5deg); /* Adjust the degree of tilt towards right as needed */
+    margin:30px;
+}
+.firsthead{
+    color:#fff;
+    justify-content: space-between;
+    font-size:44px;
+    margin:5px;
+    margin-right:10px;
+    /* margin-top:5px; */
+    /* padding:35px; */
+}
+.main-body p{
+    color:#fff;
+    font-size: x-large;
+    margin:20px;
+}
+.main-body button{
+    background-color:  #ecb134;
+    height:60px;
+    width:140px;
+    border-radius: 15px;
+    margin:20px;
+}
+.main-body button:hover{
+    background-color: rgb(246, 158, 27);
+}
+.button2{
+    height:60px;
+    width:120px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(153deg, rgba(2, 0, 36, 1) 0%, rgba(94, 96, 98, 0.9843375582654937) 100%);
+}
+.main-body h3{
+    display:inline;
+    color:#ecb134;
+    justify-content: space-between;
+    margin: 80px;
+}
+.main-body h3:hover{
+    color:orangered;
+}
+.image-container{
+    display:inline;
+    position:relative;
+    top:80px;
+    left:300px;
+    justify-content: space-evenly;
+}
+
+.pizza2, .pizza3, .pizza4, .pizza5, .pizza6, .pizza7 {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px; /* Adjust spacing between pizza images */
+}
+
+.pizza2 {
+    margin-left: 20px; /* Add left margin to pizza2 */
+    position:relative;
+    right:280px;
+    top:10px;
+    height:200px;
+    border:2px solid #ecb134;
+    border-radius:10px;
+}
+
+.pizza3 {
+    position:relative;
+    right:240px;
+    top:10px;
+    height:200px;
+    margin-left: 20px; 
+    border:2px solid #ecb134;
+    border-radius:10px;/* Add left margin to pizza3 */
+}
+
+/* Repeat the pattern for pizza4 to pizza7 as needed */
+.pizza4{
+    margin-left:20px;
+    position:relative;
+    height:200px;
+    top:10px;
+    right:200px;
+    height:200px;
+    border:2px solid #ecb134;
+    border-radius:10px;
+
+}
+.pizza5{
+    margin-left:20px;
+    position:relative;
+    top:10px;
+    right:160px;
+    height:200px;
+    border:2px solid #ecb134;
+    border-radius:10px;
+}
+
+.pizza6{
+    position:relative;
+    top:10px;
+    right:120px;
+
+    height:200px;
+    margin-left:20px;
+    border:2px solid #ecb134;
+    border-radius:10px;
+}
+.pizza7{
+    margin-left:20px;
+    position:relative;
+    top:10px;
+    right:80px;
+    height:200px;
+    border:2px solid #ecb134;
+    border-radius:10px;
+}
+.selected {
+    border: 2px solid red; /* Add a border to indicate the selected pizza */
+}
+
+.main-body img {
+    min-width: 200px; /* Set a minimum width for the main pizza image */
+    min-height: 200px; /* Set a minimum height for the main pizza image */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto;
+}
